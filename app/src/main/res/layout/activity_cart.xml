@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#222129"
+            android:paddingBottom="17.5dp"
+            android:paddingTop="17.5dp">
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_left_arrow"
+                android:layout_marginLeft="20dp"/>
+            <e.wolfsoft1.iyedelivery.customfonts.MyTextView_Roboto_Medium
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cart"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="27dp"/>
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cartRecycler">
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <View
+        android:layout_above="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:background="#cdd9d9"
+        android:layout_marginTop="18dp"/>
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:paddingTop="18dp">
+            <e.wolfsoft1.iyedelivery.customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sub Total"
+                android:textColor="@color/textColor"
+                android:textSize="12dp"
+                android:layout_marginLeft="22dp"
+                android:layout_weight="1"/>
+            <e.wolfsoft1.iyedelivery.customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/textColor"
+                android:text="Rs 600"
+                android:layout_marginRight="18dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:paddingTop="8dp">
+            <e.wolfsoft1.iyedelivery.customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery Charges"
+                android:textColor="@color/textColor"
+                android:textSize="12dp"
+                android:layout_marginLeft="22dp"
+                android:layout_weight="1"/>
+            <e.wolfsoft1.iyedelivery.customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/textColor"
+                android:text="Rs 30"
+                android:layout_marginRight="18dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:paddingTop="8dp"
+            android:paddingBottom="10dp">
+            <e.wolfsoft1.iyedelivery.customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GST(18%)"
+                android:textColor="@color/textColor"
+                android:textSize="12dp"
+                android:layout_marginLeft="22dp"
+                android:layout_weight="1"/>
+            <e.wolfsoft1.iyedelivery.customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/textColor"
+                android:text="Rs 60"
+                android:layout_marginRight="18dp"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="#cdd9d9"
+            />
+        <e.wolfsoft1.iyedelivery.customfonts.MyTextView_Roboto_Medium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ec5a31"
+            android:text="Have a Promocode?"
+            android:textSize="14dp"
+            android:paddingLeft="22dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:background="#ffffff"/>
+        <e.wolfsoft1.iyedelivery.customfonts.MyTextView_Roboto_Medium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm and Pay Rs 690"
+            android:gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:background="#222129"
+            android:paddingBottom="17dp"
+            android:paddingTop="17dp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

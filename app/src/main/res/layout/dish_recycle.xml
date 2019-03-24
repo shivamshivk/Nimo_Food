@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f9f9f9">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="22dp">
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/ic_veg"/>
+        <e.wolfsoft1.iyedelivery.customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:id="@+id/dishName"
+            android:textSize="14sp"
+            android:text="Daal Makhni"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"/>
+        <e.wolfsoft1.iyedelivery.customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:textSize="14sp"
+            android:text="Rs 300"
+            android:id="@+id/rupees"
+            android:layout_marginRight="18dp"
+            android:layout_marginLeft="0dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="9dp">
+        <e.wolfsoft1.iyedelivery.customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="North indian, Punjabi ,chinessem Sea Food,Thai, Italian"
+            android:textSize="12dp"
+            android:id="@+id/foodType"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/greyText"
+            android:layout_weight="1"/>
+        <e.wolfsoft1.iyedelivery.customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratings"
+            android:text="ADD"
+            android:textSize="13sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/green_rect"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="16dp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:background="#dfe0e2"
+        android:layout_marginTop="17dp"/>
+
+</LinearLayout>

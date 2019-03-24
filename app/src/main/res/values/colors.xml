@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#141415</color>
+    <color name="colorPrimaryDark">#141415</color>
+    <color name="colorAccent">#141415</color>
+    <color name="textColor">#070707</color>
+    <color name="greyText">#7c7b7b</color>
+    <color name="white">#fff</color>
+    <color name="reviewtxtcolor">#777777</color>
+    <color name="profiletxtcolor">#727272</color>
+    <color name="Indicator_tabTextColor">#979cba</color>
+    <color name="Indicator_tabSelectedTextColor">#262f6a</color>
+    <color name="tabindiacator_background">#fff</color>
+    <color name="tabIndicator_color">#38bffe</color>
+    <color name="card_bg">#f2ffffff</color>
+</resources>
